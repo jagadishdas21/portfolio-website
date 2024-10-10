@@ -165,22 +165,20 @@ section {
 #profile {
   display: flex;
   justify-content: center;
-  gap: 2rem;
-  height: auto;
-  flex-wrap: wrap;
+  gap: 5rem;
+  height: 80vh;
 }
 
 .section__pic-container {
   display: flex;
-  height: 300px;
-  width: 300px;
-  margin: auto;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
 }
 
 .section__text {
   align-self: center;
   text-align: center;
-  padding: 1rem;
 }
 
 .section__text p {
@@ -197,7 +195,7 @@ section {
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-align: center;
 }
 
