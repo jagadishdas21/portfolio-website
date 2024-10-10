@@ -309,7 +309,7 @@ section {
 }
 
 .section__pic-container {
-  height: auto;
+  height: 100px;
   width: 100px;
   margin: auto;
 }
