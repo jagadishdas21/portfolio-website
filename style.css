@@ -214,33 +214,6 @@ section {
   cursor: pointer;
   height: 2rem;
 }
-/* MEDIA QUERIES for larger screens like desktop */
-@media (min-width: 768px) {
-  #profile {
-    justify-content: space-between; /* Spread content on larger screens */
-    gap: 3rem; /* Slightly larger gap for desktop */
-    height: 80vh;
-  }
-
-  .section__pic-container {
-    height: 400px; /* Larger size for desktop */
-    width: 400px;
-  }
-
-  .section__text__p2 {
-    font-size: 2rem; /* Larger font size for desktop */
-  }
-
-  .title {
-    font-size: 3rem; /* Larger title on desktop */
-  }
-}
-
-@media (min-width: 1024px) {
-  #profile {
-    gap: 5rem; /* Increase gap for very large screens */
-  }
-}
 
 /* BUTTONS */
 
