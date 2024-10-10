@@ -430,3 +430,31 @@ footer {
 footer p {
   text-align: center;
 }
+/* General Styling for the Image Container */
+.section___pic-container {
+    text-align: center; /* Centers the image horizontally */
+    margin: 20px 0;
+}
+
+.about-pic {
+    width: 100%; /* Responsive width */
+    max-width: 300px; /* Limits the maximum width */
+    height: auto; /* Ensures the aspect ratio is maintained */
+    border-radius: 15px; /* Adds a slight border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow for better visual effect */
+}
+
+/* For Larger Screens (Desktop) */
+@media (min-width: 768px) {
+    .about-pic {
+        max-width: 350px; /* Larger image for desktops */
+    }
+}
+
+/* For Smaller Screens (Mobile) */
+@media (max-width: 767px) {
+    .about-pic {
+        max-width: 100%; /* Ensures full width in mobile view */
+        height: auto;
+    }
+}
