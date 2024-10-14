@@ -1,19 +1,17 @@
-// script.js
 function toggleTheme() {
   const body = document.body;
-  const themeToggle = document.getElementById('theme-toggle');
+  const themeText = document.getElementById('theme-text');
 
   body.classList.toggle('dark-mode');
   body.classList.toggle('light-mode');
 
   if (body.classList.contains('dark-mode')) {
-    themeToggle.innerText = 'Switch to Light Mode';
+    themeText.innerText = 'Light Mode';
   } else {
-    themeToggle.innerText = 'Switch to Dark Mode';
+    themeText.innerText = 'Dark Mode';
   }
 }
 
-// Initialize with light mode
 document.addEventListener('DOMContentLoaded', () => {
   document.body.classList.add('light-mode');
 });
