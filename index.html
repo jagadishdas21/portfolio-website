@@ -13,10 +13,13 @@
     <nav id="desktop-nav">
       <div class="logo">Jagadish Das</div>
       <div>
-        <button id="theme-toggle" class="btn-theme-switch" onclick="toggleTheme()">
-              <span id="theme-text">Dark Mode</span>
-            </button>
-         </div>
+        <ul class="nav-links">
+           <li><a href="#about">Mode Change</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </div>
     </nav>
     <nav id="hamburger-nav">
@@ -28,35 +31,17 @@
           <span></span>
         </div>
         <div class="menu-links">
-         <button id="theme-toggle" class="btn-theme-switch" onclick="toggleTheme()">
-              <span id="theme-text">Dark Mode</span>
-            </button>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
     <section id="profile">
-      <<style>
-        .section__pic-container {
-          width: 200px;
-          height: 200px;
-          overflow: hidden;
-          border-radius: 50%; 
-        }
-      
-        .about-pic {
-          width: 100%;
-          height: 100%;
-          overflow: hidden;
-          border-radius: 10%;
-        }
-      </style>
-      
       <div class="section__pic-container">
-        <img src="./assets/2021-09-11-18-53-14-092.jpg" 
-             alt="Jagadish Das profile picture" 
-             />
+        <img src="./assets/2021-09-11-18-53-14-092.jpg" alt="profile picture" />
       </div>
-      
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Jagadish Das</h1>
@@ -68,7 +53,7 @@
           >
             Download CV
           </button>
-          <button class="btn btn-color-2" onclick="location.href='./#contact'">
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
           </button>
         </div>
@@ -77,13 +62,13 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://www.linkedin.com/in/jagadish-das-811589211/'"
+            onclick="location.href='https://linkedin.com/jagadish-das-811589211/'"
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://www.github.com/jagadishdas21'"
+            onclick="location.href='https://github.com/jagadishdas21'"
           />
         </div>
       </div>
@@ -92,9 +77,9 @@
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
-        <div class="section___pic-container">
+        <div class="section__pic-container">
           <img
-            src="./assets/2022-04-19-11-03-56-439.jpg"
+            src="./assets/about-pic.png"
             alt="Profile picture"
             class="about-pic"
           />
@@ -117,12 +102,12 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>Integrated Masters<br /> Life Science</p>
+              <p>Int. M.Sc<br />Life Science</p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              Hi, I'm Jagadish, currently in my final year at National Institute of Technology Rourkela, studying masters in Life Science. I've always been fascinated by how Life science and Computer science can work together, especially when it comes to healthcare. With a strong foundation in deep learning and computer vision, I am dedicated to developing innovative solutions that enhance diagnostic accuracy and patient outcomes. My projects focus on leveraging advanced algorithms for tasks such as image classification, segmentation, and feature extraction. I am passionate about integrating artificial intelligence into healthcare to drive transformative changes in medical diagnostics. I am eager to connect with like-minded professionals and explore opportunities in AI-driven healthcare research and development.
+            I’m Jagadish, a final-year Life Science student at NIT Rourkela, passionate about combining Life Science and Computer Science. With expertise in deep learning and computer vision, I focus on improving diagnostic accuracy through image classification, segmentation, and feature extraction. I aim to drive innovation in AI-powered medical diagnostics and am eager to connect with professionals in this field.
             </p>
           </div>
         </div>
