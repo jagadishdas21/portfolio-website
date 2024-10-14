@@ -7,6 +7,41 @@
   padding: 0;
 }
 
+/* Add this to the top of your style.css */
+body.light-mode {
+  background-color: white;
+  color: black;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+/* Modify existing styles to accommodate both themes */
+nav, footer {
+  background-color: inherit; /* Adjust for theme */
+}
+
+.btn-color-1 {
+  background: #ddd; /* Light mode button color */
+}
+
+.btn-color-2 {
+  background: #fff; /* Light mode button color */
+}
+
+body.dark-mode .btn-color-1 {
+  background: #333; /* Dark mode button color */
+}
+
+body.dark-mode .btn-color-2 {
+  background: #444; /* Dark mode button color */
+}
+
+/* Additional adjustments */
+
+
 body {
   font-family: "Poppins", sans-serif;
 }
