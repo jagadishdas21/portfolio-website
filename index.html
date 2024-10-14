@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-     <link rel="icon" type="image/png" sizes="32x32" href="/assets/profile.png">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
@@ -18,9 +17,9 @@
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><button id="theme-toggle" onclick="toggleTheme()">Switch to Dark Mode</button></li>
         </ul>
       </div>
-       <button id="theme-switcher" onclick="toggleTheme()">Switch Theme</button>
     </nav>
     <nav id="hamburger-nav">
       <div class="logo">Jagadish Das</div>
@@ -39,14 +38,12 @@
       </div>
     </nav>
     <section id="profile">
-    
-      <style>
-        
+      <<style>
         .section__pic-container {
-          width: 200px;
-          height: 200px;
-          overflow: hidden;
-          border-radius: 50%;
+          width: 400px; /* Adjust the size as needed */
+          height: 400px;
+          overflow: hidden; /* Ensure content inside doesn't overflow */
+          border-radius: 50%; /* Makes the container circular */
         }
       
         .about-pic {
@@ -56,7 +53,7 @@
           border-radius: 10%;
         }
       </style>
-    
+      
       <div class="section__pic-container">
         <img src="./assets/2021-09-11-18-53-14-092.jpg" 
              alt="Jagadish Das profile picture" 
@@ -99,7 +96,8 @@
       <h1 class="title">About Me</h1>
       <div class="section-container">
         <div class="section___pic-container">
-          <img src="./assets/2022-04-19-11-03-56-439.jpg"
+          <img
+            src="./assets/2022-04-19-11-03-56-439.jpg"
             alt="Profile picture"
             class="about-pic"
           />
@@ -113,7 +111,7 @@
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>2+ years <br />AI in Healthcare</p>
+              <p>2+ years <br />Data Scientist</p>
             </div>
             <div class="details-container">
               <img
@@ -313,7 +311,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>MLP</h3>
+                  <h3>NLP</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -369,12 +367,12 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/brain%20tumor.jpg"
+                src="./assets/brain tumor.jfif"
                 alt="Project 1"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project-1</h2>
+            <h2 class="experience-sub-title project-title">Project One</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -384,7 +382,7 @@
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://brain-tumor-ys11.onrender.com'"
+                onclick="location.href='https://github.com/jagadishdas21/Brain-Tumor'"
               >
                 Live Demo
               </button>
@@ -393,12 +391,12 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/breast cancer.jpg"
+                src="./assets/breast cancer.jfif"
                 alt="Project 2"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project-2</h2>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -408,7 +406,7 @@
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href=''"
+                onclick="location.href='https://github.com/jagadishdas21/Breast-Cancer'"
               >
                 Live Demo
               </button>
@@ -417,22 +415,22 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/ai doctor.jpg"
+                src="./assets/Chatbot.jfif"
                 alt="Project 3"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project-3</h2>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/jagadishdas21/AI-Doctor'"
+                onclick="location.href='https://github.com/jagadishdas21/ChatBot'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href=''"
+                onclick="location.href='https://github.com/jagadishdas21/ChatBot'"
               >
                 Live Demo
               </button>
@@ -457,7 +455,8 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:jagadishdas.nitrkl@gmail.com?subject=Contact&body=Hi Jagadish,">Email</a></p>
+          <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=jagadishdas.nitrkl@gmail.com" target="_blank">Email</a></p>
+
         </div>
         <div class="contact-info-container">
           <img
