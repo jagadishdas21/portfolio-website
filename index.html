@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/profile.png">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
@@ -12,12 +13,9 @@
     <nav id="desktop-nav">
       <div class="logo">Jagadish Das</div>
       <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+        <button id="theme-toggle" class="btn-theme-switch" onclick="toggleTheme()">
+              <span id="theme-text">Dark Mode</span>
+            </button>
       </div>
     </nav>
     <nav id="hamburger-nav">
@@ -366,12 +364,12 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/brain tumor.jfif"
+                src="./assets/brain tumor.jpg"
                 alt="Project 1"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">Project-1</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -390,12 +388,12 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/breast cancer.jfif"
+                src="./assets/breast cancer.jpg"
                 alt="Project 2"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <h2 class="experience-sub-title project-title">Project-2</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -414,12 +412,12 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/Chatbot.jfif"
+                src="./assets/ai doctor.jpg"
                 alt="Project 3"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <h2 class="experience-sub-title project-title">Project-3</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
