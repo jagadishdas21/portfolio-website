@@ -90,7 +90,7 @@ a:hover {
   width: 100%;
   height: 2px;
   background-color: black;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3 ease-in-out;
 }
 
 .menu-links {
@@ -101,7 +101,7 @@ a:hover {
   width: fit-content;
   max-height: 0;
   overflow: hidden;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3 ease-in-out;
 }
 
 .menu-links a {
@@ -111,7 +111,7 @@ a:hover {
   font-size: 1.5rem;
   color: black;
   text-decoration: none;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3 ease-in-out;
 }
 
 .menu-links li {
@@ -132,6 +132,18 @@ a:hover {
 
 .hamburger-icon.open span:last-child {
   transform: rotate(-45deg) translate(10px, -5px);
+}
+
+.hamburger-icon span:first-child {
+  transform: none;
+}
+
+.hamburger-icon span:first-child {
+  opacity: 1;
+}
+
+.hamburger-icon span:first-child {
+  transform: none;
 }
 
 /* SECTIONS */
@@ -273,8 +285,6 @@ section {
 
 .about-pic {
   border-radius: 2rem;
-  max-width: 100%; /* Ensure it scales well */
-  height: auto; /* Maintain aspect ratio */
 }
 
 .arrow {
@@ -296,6 +306,12 @@ section {
 .section-container {
   gap: 4rem;
   height: 80%;
+}
+
+.section__pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
 }
 
 /* EXPERIENCE SECTION */
@@ -414,47 +430,3 @@ footer {
 footer p {
   text-align: center;
 }
-
-/* DARK MODE STYLES */
-
-body.dark-mode {
-  background-color: #121212;
-  color: white;
-}
-
-body.dark-mode p {
-  color: #e0e0e0; /* Lighter text color for better visibility */
-}
-
-body.dark-mode .nav-links a {
-  color: white; /* Adjust link colors in dark mode */
-}
-
-body.dark-mode .nav-links a:hover {
-  color: lightgrey; /* Hover state for links in dark mode */
-}
-
-body.dark-mode .btn-color-1 {
-  background: #333; /* Dark mode button color */
-}
-
-body.dark-mode .btn-color-2 {
-  background: #444; /* Dark mode button color */
-}
-
-body.dark-mode .about-pic {
-  border-radius: 2rem;
-}
-
-/* Media Queries for Responsive Design */
-@media screen and (max-width: 1400px) {
-  #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
-  }
-  .about-containers {
-    flex-wrap: wrap;
-  }
-  #contact,
-  #projects {
-    height
