@@ -158,6 +158,7 @@ section {
 
 .section-container {
   display: flex;
+  border-radius: 50%
 }
 
 /* PROFILE SECTION */
