@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/profile.png">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
+     <!-- Desktop Navigation -->
     <nav id="desktop-nav">
       <div class="logo">Jagadish Das</div>
       <div>
@@ -18,7 +19,7 @@
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
-           <li>
+          <li>
             <button id="theme-toggle" class="btn-theme-switch" onclick="toggleTheme()">
               <span id="theme-text">Dark Mode</span>
             </button>
@@ -26,6 +27,8 @@
         </ul>
       </div>
     </nav>
+    
+<!-- Mobile Navigation (Hamburger Menu) -->
     <nav id="hamburger-nav">
       <div class="logo">Jagadish Das</div>
       <div class="hamburger-menu">
@@ -34,52 +37,29 @@
           <span></span>
           <span></span>
         </div>
-        <div class="menu-links">
+        <ul class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
+        </ul>
       </div>
     </nav>
+      
+      <!-- Main Content -->
     <section id="profile">
-      <<style>
-        .section__pic-container {
-          width: 400px; /* Adjust the size as needed */
-          height: 400px;
-          overflow: hidden; /* Ensure content inside doesn't overflow */
-          border-radius: 50%; /* Makes the container circular */
-        }
-      
-        .about-pic {
-          width: 100%;
-          height: 100%;
-          overflow: hidden;
-          border-radius: 10%;
-        }
-      </style>
-      
       <div class="section__pic-container">
-        <img src="./assets/2021-09-11-18-53-14-092.jpg" 
-             alt="Jagadish Das profile picture" 
-             />
+        <img src="./assets/2021-09-11-18-53-14-092.jpg" alt="Jagadish Das profile picture" />
       </div>
-      
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Jagadish Das</h1>
         <p class="section__text__p2">Data Scientist</p>
         <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/Jagadish_Resume.pdf')"
-          >
-            Download CV
-          </button>
-          <button class="btn btn-color-2" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
+          <button class="btn btn-color-2" onclick="window.open('./assets/Jagadish_Resume.pdf')">Download CV</button>
+          <button class="btn btn-color-2" onclick="location.href='./#contact'">Contact Info</button>
         </div>
+      </div>
         <div id="socials-container">
           <img
             src="./assets/linkedin.png"
@@ -96,6 +76,8 @@
         </div>
       </div>
     </section>
+
+    <!-- About Section -->
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
