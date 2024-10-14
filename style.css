@@ -171,10 +171,10 @@ section {
 
 .section__pic-container {
   display: flex;
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   overflow: hidden;
-  border-radius: 50%;
+  border-radius: 4rem;
 }
 
 .section__text {
