@@ -1,17 +1,6 @@
-function toggleTheme() {
-  const body = document.body;
-  const themeText = document.getElementById('theme-text');
-
-  body.classList.toggle('dark-mode');
-  body.classList.toggle('light-mode');
-
-  if (body.classList.contains('dark-mode')) {
-    themeText.innerText = 'Light Mode';
-  } else {
-    themeText.innerText = 'Dark Mode';
-  }
+function toggleMenu() {
+  const menu = document.querySelector(".menu-links");
+  const icon = document.querySelector(".hamburger-icon");
+  menu.classList.toggle("open");
+  icon.classList.toggle("open");
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-  document.body.classList.add('light-mode');
-});
