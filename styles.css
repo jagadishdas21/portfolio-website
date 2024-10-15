@@ -1,0 +1,385 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Use Poppins as the font */
+}
+
+body {
+    background-color: #ffffff; /* Off-white neutral tone */
+    color: #333;
+    text-align: center; /* Center-align the text */
+    font-size: 1.1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color:  #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav h1 {
+    font-size: 1.5rem;
+    color: #d87e4a; /* Orange from the design */
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+.mode-switch button {
+    background: none;
+    border: 2px solid #333;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Profile Section */
+#profile {
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.profile-pic {
+    border-radius: 50%; /* Circular image */
+    width: 200px; /* Slightly larger profile image */
+    border: 3px solid #d87e4a; /* Orange outline around the profile pic */
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 0rem;
+    color: #000;
+}
+
+h3 {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 0.7rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.btn {
+    padding: 0.7rem 1.5rem;
+    border-radius: 50px;
+    background-color: #d87e4a; /* Accent orange */
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border: 2px solid #d87e4a; /* Added border outline */
+}
+
+.btn:hover {
+    background-color: #bf713b;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.social-icons a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.1);
+}
+
+/* About Me Section */
+.about {
+    text-align: center;
+    padding: 5rem 3rem;
+    max-width: 800px;
+    line-height: 5;
+    margin-top: 2rem;
+
+}
+
+.about-pic {
+    border-radius: 20px; /* Rounded corners */
+    width: 400px; /* Normal size for the image */
+    border: 3px solid #d87e4a;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.info-panels {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.info-card {
+    background: #f5e7d6;/* Light brown/cream tone */
+    padding: 2rem;
+    border-radius: 20px; /* Rounded rectangle */
+    border: 3px solid #d87e4a; /* Orange outline */
+    transition: transform 0.3s;
+    margin: 0 auto 2rem;
+    width: 80%;
+    max-width: 600px;
+    margin-bottom:2rem;
+}
+
+.info-card:hover {
+    transform: translateY(-5px); /* Slight hover effect */
+}
+
+.info {
+    width: 60px; /* Set a fixed size for icons */
+    height: 60px;
+    margin-bottom: 2rem;
+}
+
+.info-card h3 {
+    font-size: 1.7rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333; /* Darker text for headings */
+}
+
+.info-card p {
+    font-size: 1.1rem;
+    color: #555; /* Slightly lighter text for paragraphs */
+}
+
+/* Experience and Projects Section */
+.section {
+    padding: 3rem 2rem;
+    text-align: center; /* Center-align sections */
+}
+
+.projects-container, .experience-content {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.project-card, .experience-card {
+    background: #f5e7d6;/* Light brown/cream tone */
+    padding: 2rem;
+    border-radius: 20px; /* Rounded rectangle */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    border: 3px solid #d87e4a; /* Orange outline */
+    transition: transform 0.3s;
+}
+
+.project-card:hover, .experience-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card img, .experience-card img {
+    border-radius: 25px; /* Rounded image */
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    border: 2px solid #d87e4a; /* Orange outline for image */
+}
+
+/* Unified Button Style */
+button, .project-card a, .send-button {
+    background-color: #d87e4a;
+    padding: 0.7rem 2rem;
+    border-radius: 50px; /* Rounded shape for all buttons */
+    cursor: pointer;
+    font-size: 0.7rem;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s;
+    border: 2px solid #d87e4a;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hover effect for all buttons */
+button:hover, .send-button:hover, .project-card a:hover {
+    background-color: #bf713b;
+}
+
+/* Specific styles for GitHub Repo and Live Demo buttons */
+.project-card a {
+    display: inline-block;
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+/* Add this CSS for the custom checkmark bullets */
+.experience-content ul {
+    list-style: none; /* Remove default bullets */
+    padding-left: 0;
+}
+
+.experience-content ul li {
+    padding-left: 25px; /* Space for the icon */
+    background: url('/images/checkmark.png') no-repeat left center;
+    background-size: 20px; /* Adjust the size of the checkmark */
+    margin-bottom: 10px; /* Add space between items */
+}
+/* Contact Form Section */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 4rem 2;
+}
+
+.contact-form textarea {
+    width: 300%;
+    max-width: 8000px;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 2px solid #d87e4a;
+    resize: none;
+    background-color: #f5e7d6;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    color: #333;
+    outline: none;
+}
+
+.contact-form textarea:focus {
+    border-color: #bf713b;
+}
+
+
+/* Style for Send Email button */
+.send-email-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: #d87e4a;
+    color: white;
+    width: 80%;
+    max-width: 200px;
+    padding: 0.7rem 1rem;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.send-email-btn:hover {
+    background-color: #bf713b;
+}
+
+.send-email-btn img {
+    width: 40px;
+    height: 40px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.dark-mode {
+    background-color: #444;
+    color: #fff;
+}
+
+.dark-mode nav {
+    background-color: #555;
+    color: #fff;
+}
+
+.dark-mode nav a {
+    color: #aaa;
+}
+
+.dark-mode .btn {
+    background-color: #666;
+}
+
+.dark-mode .btn:hover {
+    background-color: #666;
+}
+
+.dark-mode .project-card, .dark-mode .experience-card {
+    background: #666;
+    color: #fff;
+}
+
+.dark-mode input, .dark-mode textarea {
+    background-color: #666;
+    color: #fff;
+    border-color: #666;
+}
+
+body.dark-mode .info-card, 
+body.dark-mode .project-card, 
+body.dark-mode .experience-card {
+    background: #f5e7d6;
+    color: #2c2c2c;
+}
+
+body.dark-mode .info-card h3, 
+body.dark-mode .info-card p, 
+body.dark-mode .project-card h3, 
+body.dark-mode .experience-card h3 {
+    color: #2c2c2c;
+}
+
+/*body.dark-mode .btn:hover,
+body.dark-mode .buttons:hover,*/
+body.dark-mode .send-email-btn:hover {
+    transform: translateY(-5px);
+    background: #bf713b;
+}
