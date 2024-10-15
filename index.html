@@ -1,469 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/profile.png">
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
-  </head>
-  <body>
-    <nav id="desktop-nav">
-      <div class="logo">Jagadish Das</div>
-      <div>
-        <ul class="nav-links">
-           <li><a href="#about">Mode Change</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/profile.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <h1>Jagadish Das</h1>
+        <div class="mode-switch">
+            <button id="modeToggle">Dark Mode</button>
+        </div>
     </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">Jagadish Das</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-           <li><a href="#about" onclick="toggleMenu()">Mode Change</a></li>
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
-      </div>
-    </nav>
-    <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/2021-09-11-18-53-14-092.jpg" alt="profile picture" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Jagadish Das</h1>
-        <p class="section__text__p2">Data Scientist</p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/Jagadish_Resume.pdf')"
-          >
-            Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
-        </div>
-        <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://linkedin.com/jagadish-das-811589211/'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/jagadishdas21'"
-          />
-        </div>
-      </div>
-    </section>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./assets/2022-04-19-11-03-56-439.jpg"
-            alt="Profile picture"
-            class="about-pic"
-          />
-        </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>2+ years <br />Data Scientist</p>
-            </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>Int. M.Sc<br />Life Science</p>
-            </div>
-          </div>
-          <div class="text-container">
-            <p>
-            I’m Jagadish, a final-year Life Science student at NIT Rourkela, passionate about combining Life Science and Computer Science. With expertise in deep learning and computer vision, I focus on improving diagnostic accuracy through image classification, segmentation, and feature extraction. I aim to drive innovation in AI-powered medical diagnostics and am eager to connect with professionals in this field.
-            </p>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
-    </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Machine learning</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>NumPy</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Pandas</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Matplotlib</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Sklearn</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Linear & Logistic Regression</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Support Vector Machine (SVM)</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>K-Means Clustering</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Naive Bayes Classifier</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Deep Learning</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Tensorflow</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Keras</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>ANN</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>CNN</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>RNN</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>LSTM</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>NLP</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>YOLO</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>GAN</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>BERT</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
-    </section>
-    <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/brain tumor.jpg"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project-1</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/jagadishdas21/Brain-Tumor'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/jagadishdas21/Brain-Tumor'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/breast cancer.jpg"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project-2</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/jagadishdas21/Breast-Cancer'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/jagadishdas21/Breast-Cancer'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/ai doctor.jpg"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project-3</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/jagadishdas21/ChatBot'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/jagadishdas21/ChatBot'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
-    </section>
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=jagadishdas.nitrkl@gmail.com" target="_blank">Email</a></p>
 
+    <section id="profile" class="section">
+        <img src="/images/2021-09-11-18-53-14-092.jpg" alt="Jagadish Das" class="profile-pic">
+        <h2>Hi, I'm</h2>
+        <h1>Jagadish Das</h1>
+        <h3>Data Scientist</h3>
+        <div class="buttons">
+            <a href="#" class="btn">Download CV</a>
+            <a href="#contact" class="btn">Contact Me</a>
         </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://www.linkedin.com/in/jagadish-das-811589211/">LinkedIn</a></p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/jagadish-das-811589211/" target="_blank">
+                <img src="/images/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/jagadishdas21" target="_blank">
+                <img src="/images/github.png" alt="GitHub">
+            </a>
+            <a href="https://devpost.com/jagadishdas-nitrkl" target="_blank">
+                <img src="/images/devpost.svg" alt="Devpost">
+            </a>
         </div>
-      </div>
+    
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <img src="/images/2022-04-19-11-03-56-439.jpg" alt="Jagadish Das" class="about-pic">
+        <p>Hi, I'm Jagadish, currently in my final year at National Institute of Technology Rourkela, studying masters in Life Science. I've always been fascinated by how Life science and Computer science can work together, especially when it comes to healthcare. With a strong foundation in deep learning and computer vision, I am dedicated to developing innovative solutions that enhance diagnostic accuracy and patient outcomes.
+
+        My projects focus on leveraging advanced algorithms for tasks such as image classification, segmentation, and feature extraction. I am passionate about integrating artificial intelligence into healthcare to drive transformative changes in medical diagnostics.
+            
+        I am eager to connect with like-minded professionals and explore opportunities in AI-driven healthcare research and development.</p>
     </section>
-    <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+
+     <section>
+        <div class="panel">
+            <div class="info-card">
+                <img src="/images/experience.png" alt="Experience Icon" class="info">
+                <h3>Experience</h3>
+                <p>2+ years</p>
+                <p>AI in Healthcare</p>
+            </div>
+            <div class="info-card">
+                <img src="/images/education.png" alt="Education Icon" class="info">
+                <h3>Education</h3>
+                <p>Int. M.Sc</p>
+                <p>Life Sciences</p>
+            </div>
         </div>
-      </nav>
-      <p>Copyright &#169; 2024 JAGADISH DAS All Rights Reserved.</p>
+    </section>
+
+
+    <section id="experience" class="section">
+        <h2>Skills</h2>
+        <div class="experience-content">
+            <div class="experience-card">
+                <h3>Web Development</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Bootstrap</li>
+                    <li>Python</li>
+                    <li>Flask</li>
+                    <li>AWS</li>
+                </ul>
+            </div>
+            <div class="experience-card">
+                <h3>Machine Learning</h3>
+                <ul>
+                    <li>NumPy</li>
+                    <li>Pandas</li>
+                    <li>Matplotlib</li>
+                    <li>Scikit-learn</li>
+                    <li>Logistic Regression</li>
+                    <li>K-Means Clustering</li>
+                    <li>Naive Bayes Classifier</li>
+                </ul>
+            </div>
+            <div class="experience-card">
+                <h3>Deep Learning</h3>
+                <ul>
+                    <li>TensorFlow</li>
+                    <li>Keras</li>
+                    <li>ANN/CNN</li>
+                    <li>RNN/LSTM</li>
+                    <li>NLP/BERT</li>
+                    <li>GAN/YOLO</li>
+                    <li>ResNet</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card"> 
+                <div class="typewriter">
+                    <h3>Brain Tumor Detection</h3>
+                </div>
+                 <img src="/images/brain tumor.jpg" alt="Brain Tumor Detection">
+                <p>A Deep learning model for the Brain Tumor Detection using CNN.</p>
+                <div class="buttons">
+                    <a href="https://github.com/jagadishdas21/Brain-Tumor" target="_blank" class="btn">GitHub Repo</a>
+                    <a href="https://brain-tumor-vvgk.onrender.com" target="_blank" class="btn">Live Demo</a>
+                </div>
+            </div>
+    
+            <div class="project-card">
+                <div class="typewriter">
+                    <h3>Breast Cancer Prediction</h3>
+                </div>
+                <img src="/images/breast cancer.jpg" alt="Breast Cancer Prediction">
+                <p>A Machine learning model for Breast Cancer Prediction using Logistic Regression.</p>
+                <div class="buttons">
+                    <a href="https://github.com/jagadishdas21/Breast-Cancer" target="_blank" class="btn">GitHub Repo</a>
+                    <a href="https://brain-tumor-vvgk.onrender.com" target="_blank" class="btn">Live Demo</a>
+                </div>
+            </div>
+    
+            <div class="project-card">
+                <div class="typewriter">
+                    <h3>AI Doctor</h3>
+                </div>
+                <img src="/images/ai doctor.jpg" alt="AI Doctor" class="project-image">
+                <p>An AI-based virtual assistant for medical consultations</p>
+                <div class="buttons">
+                    <a href="https://github.com/jagadishdas21/AI-Doctor" target="_blank" class="btn">GitHub Repo</a>
+                    <a href="https://ai-doctor-4yd7.onrender.com" target="_blank" class="btn">Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jagadishdas.nitrkl@gmail.com&su=Inquiry&body=Hello Jagadish, I would like to connect with you regarding..." class="btn send-email-btn">
+            <img src="/images/email.png" alt="Email Icon">
+            Send Email
+        </a>
+    </section>
+    
+
+    
+
+    <footer>
+        <p>&copy; 2024 All Right Reserved | Designed and developed by Jagadish Das</p>
     </footer>
+
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
