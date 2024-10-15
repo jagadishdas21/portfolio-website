@@ -278,7 +278,7 @@ button:hover, .send-button:hover, .project-card a:hover {
     color: white;
     width: 80%;
     max-width: 200px;
-    padding: 0.7rem 1rem;
+    padding: 0.7rem 1.2rem;
     text-decoration: none;
     border-radius: 10px;
     transition: background-color 0.3s ease;
