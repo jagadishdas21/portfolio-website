@@ -13,7 +13,7 @@ body {
     background-color: #ffffff; /* Off-white neutral tone */
     color: #333;
     text-align: center; /* Center-align the text */
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -134,7 +134,7 @@ h3 {
 
 .about-pic {
     border-radius: 20px; /* Rounded corners */
-    width: 400px; /* Normal size for the image */
+    width: 230px; /* Normal size for the image */
     border: 2px solid #000000;
     margin-top: 2rem;
     margin-bottom: 2rem;
