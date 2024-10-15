@@ -221,10 +221,10 @@ h3 {
 /* Unified Button Style */
 button, .project-card a, .send-button {
     background-color: #d87e4a;
-    padding: 0.5rem 2rem;
+    padding: 0.7rem 1.5rem;
     border-radius: 50px; /* Rounded shape for all buttons */
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 0.7rem;
     font-family: 'Poppins', sans-serif;
     transition: background-color 0.3s;
     border: 2px solid #000000;
