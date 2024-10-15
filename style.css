@@ -171,10 +171,9 @@ section {
 
 .section__pic-container {
   display: flex;
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
 }
 
 .section__text {
@@ -285,10 +284,7 @@ section {
 }
 
 .about-pic {
-  width: 100%; /* Makes the image take up the full width of its container */
-  height: auto; /* Keeps the aspect ratio */
-  object-fit: cover; /* Ensures the image fills the container properly without distortion */
-  border-radius: 1rem; /* Matches the container's rounded corners */
+  border-radius: 2rem;
 }
 
 .arrow {
@@ -308,20 +304,15 @@ section {
 }
 
 .section-container {
- display: flex;
-  flex-direction: column; /* Stack the elements vertically */
-  align-items: center; /* Center the content horizontally */
-  gap: 2rem; /* Space between elements */
+  gap: 4rem;
+  height: 80%;
 }
 
-.about-pic-container {
-  width: 100%; /* Makes the container take full width */
-  max-width: 80%; /* Restricts the image size to a maximum of 80% of the container width */
-  height: auto; /* Maintains the aspect ratio */
-  display: flex;
-  justify-content: center; /* Centers the image */
-  overflow: hidden; /* Ensures no overflow */
-  border-radius: 1rem; /* Adds rounded corners to the image */
+.section__pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
 
 /* EXPERIENCE SECTION */
 
