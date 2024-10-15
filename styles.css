@@ -79,7 +79,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #666;
     margin-bottom: 0.7rem;
 }
@@ -92,7 +92,7 @@ h3 {
 }
 
 .btn {
-    padding: 0.7rem 1.5rem;
+    padding: 0.5rem 1rem;
     border-radius: 50px;
     background-color: #d87e4a; /* Accent orange */
     color: #fff;
@@ -134,7 +134,7 @@ h3 {
 
 .about-pic {
     border-radius: 20px; /* Rounded corners */
-    width: 200px; /* Normal size for the image */
+    width: 300px; /* Normal size for the image */
     border: 3px solid #d87e4a;
     margin-top: 2rem;
     margin-bottom: 2rem;
