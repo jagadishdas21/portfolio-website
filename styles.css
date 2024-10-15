@@ -221,7 +221,7 @@ h3 {
 /* Unified Button Style */
 button, .project-card a, .send-button {
     background-color: #d87e4a;
-    padding: 0.7rem 2rem;
+    padding: 1rem 1rem;
     border-radius: 50px; /* Rounded shape for all buttons */
     cursor: pointer;
     font-size: 0.7rem;
@@ -286,23 +286,6 @@ button:hover, .send-button:hover, .project-card a:hover {
     border-color: #bf713b;
 }
 
-/* Fix icon alignment in the Send button */
-.contact-form .send-button {
-    gap: 0.5rem; /* Add spacing between text and icon */
-    display: flex;
-    padding: 0.7rem 2rem;
-    align-items: center;
-    background-color: #d87e4a;
-    color: white;
-    border: none;
-    border-radius: 50px;
-    transition: background-color 0.3s ease;
-    cursor: pointer;
-}
-.send-button:hover {
-    background-color: #bf713b;
-}
-
 /* Style for Send Email button */
 .send-email-btn {
     display: flex;
@@ -342,7 +325,7 @@ button:hover, .send-button:hover, .project-card a:hover {
 /* Footer */
 footer {
     text-align: center;
-    padding: 1rem;
+    padding: 1rem 2rem;
     background-color: rgba(0, 0, 0, 0.1);
     box-shadow: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
