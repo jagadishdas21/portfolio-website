@@ -221,7 +221,7 @@ h3 {
 /* Unified Button Style */
 button, .project-card a, .send-button {
     background-color: #d87e4a;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.5rem;
     border-radius: 50px; /* Rounded shape for all buttons */
     cursor: pointer;
     font-size: 0.7rem;
