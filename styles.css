@@ -79,9 +79,10 @@ h2 {
 }
 
 h3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #666;
-    margin-bottom: 0.7rem;
+    margin-bottom: 0.8rem;
+    margin-top: 0.2rem;
 }
 
 .buttons {
@@ -92,7 +93,7 @@ h3 {
 }
 
 .btn {
-    padding: 1rem 0.5rem;
+    padding: 0.5rem 1rem;
     border-radius: 50px;
     background-color: #d87e4a; /* Accent orange */
     color: #fff;
