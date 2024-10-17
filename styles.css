@@ -15,8 +15,8 @@ html {
 }
 
 body {
-    background-color: #ffffff; /* Light mode background */
-    color: #333; /* Default text color */
+    background-color: #ffffff;
+    color: #333;
     text-align: center;
     font-size: 1.2rem;
     transition: background-color 0.3s, color 0.3s;
@@ -24,20 +24,20 @@ body {
 
 /* Full Page Sections */
 section {
-    min-height: 100vh; /* Ensure each section takes at least full viewport height */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    overflow-y: auto; /* Allows content to be scrollable if it overflows */
+    overflow-y: auto;
 }
 
 /* Navigation */
 nav {
     width: 100%;
     padding: 1rem 2rem;
-    background-color: #ffffff; /* Light mode navbar */
+    background-color: #ffffff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
@@ -49,7 +49,7 @@ nav {
 
 nav h1 {
     font-size: 1.5rem;
-    color: #d87e4a; /* Orange from the design */
+    color: #d87e4a;
 }
 
 nav ul {
@@ -139,11 +139,11 @@ h3 {
     font-size: 0.9rem;
     width: 100px;
     max-width: 200px;
-    background-color: #d87e4a; /* Accent orange */
+    background-color: #d87e4a
     color: #fff;
     text-decoration: none;
     transition: background-color 0.3s;
-    border: 1px solid #000000; /* Added border outline */
+    border: 1px solid #000000;
     margin-bottom: 1.2rem;   
 }
 
@@ -179,9 +179,9 @@ h3 {
 }
 
 .about-pic {
-    border-radius: 10px; /* Rounded corners */
-    width: 80%; /* Adjust size for responsiveness */
-    max-width: 300px; /* Limit the maximum size on larger screens */
+    border-radius: 10px;
+    width: 80%;
+    max-width: 300px;
     border: 1.5px solid #000000;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -198,10 +198,10 @@ h3 {
 }
 
 .info-card {
-    background: #f5e7d6; /* Light brown/cream tone */
+    background: #f5e7d6;
     padding: 2rem;
-    border-radius: 10px; /* Rounded rectangle */
-    border: 1.5px solid #d87e4a; /* Orange outline */
+    border-radius: 10px;
+    border: 1.5px solid #d87e4a;
     transition: transform 0.3s;
     text-align: center;
     margin: 0 auto;
@@ -210,11 +210,11 @@ h3 {
 }
 
 .info-card:hover {
-    transform: translateY(-5px); /* Slight hover effect */
+    transform: translateY(-5px);
 }
 
 .info {
-    width: 50px; /* Set a fixed size for icons */
+    width: 50px;
     height: 50px;
 }
 
@@ -222,12 +222,12 @@ h3 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
     font-weight: bold;
-    color: #333; /* Darker text for headings */
+    color: #333;
 }
 
 .info-card p {
     font-size: 1rem;
-    color: #555; /* Slightly lighter text for paragraphs */
+    color: #555;
 }
 
 /* Experience and Projects Section */
@@ -321,7 +321,6 @@ button:hover,
     padding: 4rem 2;
 }
 
-/* Style for Send Email button */
 .send-email-btn {
     display: flex;
     align-items: center;
@@ -337,7 +336,7 @@ button:hover,
     transition: background-color 0.3s ease;
     font-family: 'Poppins', sans-serif;
     font-size: 0.9rem;
-    margin-top: 1rem; /* Ensure spacing between Send and Send Email */
+    margin-top: 1rem;
 }
 
 .send-email-btn:hover {
@@ -349,7 +348,6 @@ button:hover,
     height: 40px;
 }
 
-/* Ensure the section centers all content */
 #contact {
     display: flex;
     flex-direction: column;
@@ -398,19 +396,18 @@ body.dark-mode section {
     color: #fff;
 }
 
-/* Dark Mode Styles */
 body.dark-mode .info-card, 
 body.dark-mode .project-card, 
 body.dark-mode .experience-card {
-    background: #f5e7d6; /* Adjust to a dark color of your choice */
-    color: #2c2c2c; /* Light text color for dark backgrounds */
+    background: #f5e7d6;
+    color: #2c2c2c;
 }
 
 body.dark-mode .info-card h3, 
 body.dark-mode .info-card p, 
 body.dark-mode .project-card h3, 
 body.dark-mode .experience-card h3 {
-    color: #2c2c2c; /* Ensure the text is visible in dark mode */
+    color: #2c2c2c;
 }
 
 body.dark-mode footer {
@@ -427,14 +424,13 @@ body.dark-mode p {
 
 body.dark-mode .send-email-btn:hover,
 body.dark-mode .btn:hover{
-    transform: translateY(-5px); /* Slight hover effect */
-    background: #bf713b; /* Orange background for hover */
+    transform: translateY(-5px);
+    background: #bf713b;
 }
 
-/* Dark Mode for Profile Section */
 body.dark-mode #profile {
-    background-color: #444; /* Dark background color */
-    color: #fff; /* Light text color */
+    background-color: #444;
+    color: #fff;
 }
 
 
