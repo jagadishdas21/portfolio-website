@@ -438,14 +438,14 @@ body.dark-mode #profile {
 /* Responsive Design */
 @media (max-width: 768px) {
     section {
-        padding: 1.5rem; /* Adjust padding on mobile */
+        padding: 1.5rem;
     }
     nav ul {
-        display: none; /* Hide navbar links on mobile */
+        display: none;
     }
 
     .mode-switch {
-        margin-left: 0; /* Align the mode switch button */
+        margin-left: 0;
     }
 
     .panels {
