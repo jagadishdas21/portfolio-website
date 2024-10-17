@@ -451,11 +451,6 @@ body.dark-mode #profile {
         margin-left: 0; /* Align the mode switch button */
     }
 
-    .buttons {
-        flex-direction: column;
-        
-    }
-
     .panels, .projects-container, .experience-content {
         flex-direction: column;
         gap: 1rem;
