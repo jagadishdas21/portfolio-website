@@ -486,5 +486,26 @@ body.dark-mode #profile {
     .info-card p {
         font-size: 0.9rem;
     }
+    
+    .projects-container,
+    .experience-content {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .project-card,
+    .experience-card {
+        width: 100%;
+        padding: 1.5rem;
+        margin: 1rem 0;
+    }
+
+    button,
+    .project-card a,
+    .send-button {
+        font-size: 0.8rem;
+        padding: 0.7rem 1.2rem;
+    }
 }
         
