@@ -378,11 +378,6 @@ footer {
     color: #ffffff;
 }
 
-body.dark-mode section {
-    background-color: #444;
-    color: #fff;
-}
-
 .dark-mode .btn {
     background-color: #666;
 }
@@ -396,6 +391,11 @@ body.dark-mode section {
     color: #fff;
 }
 
+body.dark-mode section {
+    background-color: #444;
+    color: #fff;
+}
+
 body.dark-mode .info-card, 
 body.dark-mode .project-card, 
 body.dark-mode .experience-card {
@@ -405,7 +405,8 @@ body.dark-mode .experience-card {
 
 body.dark-mode .info-card h3, 
 body.dark-mode .info-card p, 
-body.dark-mode .project-card h3, 
+body.dark-mode .project-card h3,
+body.dark-mode .project-card p,
 body.dark-mode .experience-card h3 {
     color: #2c2c2c;
 }
