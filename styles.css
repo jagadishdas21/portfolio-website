@@ -395,6 +395,9 @@ body.dark-mode section {
     background: #666;
     color: #fff;
 }
+.dark-mode .typewriter p {
+     background-color: #666;
+}
 
 body.dark-mode .info-card, 
 body.dark-mode .project-card, 
