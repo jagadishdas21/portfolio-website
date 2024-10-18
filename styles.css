@@ -482,10 +482,6 @@ body.dark-mode #profile {
         gap: 1rem;
     }
 
-    .info-card {
-        width: 90%;
-        max-width: none;
-    }
     .about {
         padding: 1.5rem 1rem;
         margin-top: 1rem;
@@ -512,13 +508,9 @@ body.dark-mode #profile {
         margin-top: 1rem;
     }
 
-    .info-panels {
-        grid-template-columns: 1fr;
-    }
-
     .info-card {
         padding: 2rem;
-        width: 90%;
+        width: 100%;
     }
 
     .info-card h3 {
