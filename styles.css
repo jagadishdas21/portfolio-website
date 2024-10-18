@@ -354,7 +354,7 @@ button:hover,
     max-width: 180px;
     padding: 0.4rem 1rem;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 15px;
     transition: background-color 0.3s ease;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
