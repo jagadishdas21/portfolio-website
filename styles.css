@@ -55,7 +55,6 @@ nav h1 {
 nav ul {
     display: flex;
     list-style: none;
-    margin-right: auto;
 }
 
 nav ul li {
