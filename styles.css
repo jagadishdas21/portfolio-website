@@ -346,6 +346,70 @@ button:hover,
     padding: 4rem 2;
 }
 
+.search-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+#search-input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    background-color: #f9f9f9;
+    outline: none;
+}
+
+#search-input:focus {
+    border-color: #d87e4a;
+    background-color: #fff;
+}
+
+#search-button {
+    padding: 6px 16px;
+    border: none;
+    background-color: #d87e4a;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#search-button:hover {
+    background-color: #b76a3e;
+}
+
+.results {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    z-index: 1000;
+    display: none;
+}
+
+.results div {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.results div:last-child {
+    border-bottom: none;
+}
+
+.results div:hover {
+    background-color: #f0f0f0;
+}
+
 .send-email-btn {
     display: flex;
     align-items: center;
