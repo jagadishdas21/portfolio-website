@@ -324,12 +324,12 @@ button:hover,
     color: white;
     width: 100%;
     max-width: 200px;
-    padding: 0.5rem 1rem;
+    padding: 0.4rem 1rem;
     text-decoration: none;
-    border-radius: 50px;
+    border-radius: 10px;
     transition: background-color 0.3s ease;
     font-family: 'Poppins', sans-serif;
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-top: 1rem;
 }
 
