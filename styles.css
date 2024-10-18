@@ -83,7 +83,8 @@ nav a:hover {
 }
 
 .mode-switch button {
-    background: none;
+    background: #fff;
+    color: #000;
     border: 2px solid #333;
     padding: 0.5rem 1rem;
     border-radius: 20px;
@@ -91,6 +92,7 @@ nav a:hover {
     margin-left: 20px;
     transition: background-color 0.3s, color 0.3s;
 }
+
 
 /* Profile Section */
 #profile {
@@ -403,11 +405,6 @@ footer {
 
 .dark-mode .mode-switch button {
     background: #bf713b;
-    color: #000;
-}
-
-.light-mode .mode-switch button {
-    background: #fff;
     color: #000;
 }
 
