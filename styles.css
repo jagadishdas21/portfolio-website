@@ -185,6 +185,29 @@ h3 {
     margin-bottom: 2.5rem;
 }
 
+.about-section p {
+            max-width: 600px;
+            margin: 20px auto;
+            text-align: left;
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #e0e0e0;
+        }
+
+        .about-section .highlight {
+            color: #ff4d4d;
+            font-weight: bold;
+        }
+
+        .about-section p a {
+            color: #ff4d4d;
+            text-decoration: none;
+        }
+
+        .about-section p a:hover {
+            text-decoration: underline;
+        }
+
 .panel {
     display: flex;
     justify-content: space-around;
