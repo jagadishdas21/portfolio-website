@@ -186,7 +186,7 @@ h3 {
 
 .about-pic {
     border-radius: 10px;
-    width: 400px;
+    width: 500px;
     height: 300px;
     margin-top: 2rem;
     margin-right: 2rem;
@@ -493,8 +493,8 @@ body.dark-mode #profile {
 
     .about-pic {
         width: 90%;
-        width: 200px;
-        height: 100px;
+        width: 300px;
+        height: 200px;
     }
 
     .about-text {
@@ -523,13 +523,13 @@ body.dark-mode #profile {
     .experience-content {
         flex-direction: column;
         align-items: center;
-        padding: 1rem;
+        padding: 1.5rem;
     }
 
     .project-card,
     .experience-card {
         width: 100%;
-        padding: 2rem;
+        padding: 1.5rem;
         margin: 1rem 0;
     }
 
