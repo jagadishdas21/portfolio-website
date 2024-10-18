@@ -308,6 +308,7 @@ button,
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 1rem;
 }
 
 button:hover,
@@ -558,7 +559,7 @@ body.dark-mode #profile {
         
     footer {
     text-align: center;
-    padding: 1.5rem 1rem;
+    padding: 1rem 0.5rem;
     font-size: 0.9rem;
     }
 }
