@@ -188,7 +188,7 @@ h3 {
 .about-pic {
     border-radius: 10px;
     width: 400px;
-    height: 300px;
+    height: 200px;
     margin-top: 2rem;
     margin-right: 2rem;
 }
@@ -197,7 +197,7 @@ h3 {
 .about-text {
     max-width: 600px;
     margin-left: 2rem;
-    font-size: 0.82em;
+    font-size: 0.7em;
     line-height: 1.8;
     text-align: left;
     margin-top: 1.5rem;
