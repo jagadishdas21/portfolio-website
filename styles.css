@@ -515,6 +515,7 @@ body.dark-mode #profile {
         align-items: center;
         padding: 2rem;
         width: 100%;
+        box-sizing: border-box;
     }
 
     .info-card h3 {
@@ -558,5 +559,11 @@ body.dark-mode #profile {
     padding: 1rem 0.5rem;
     font-size: 0.9rem;
     }
+
+    {
+    border: none;
+    background: none; 
+    }
 }
+
         
