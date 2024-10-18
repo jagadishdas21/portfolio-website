@@ -169,55 +169,46 @@ h3 {
 
 /* About Me Section */
 .about-section {
+    text-align: left; /* Align text to the left */
     padding: 2rem 1rem;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 800px;
+    margin: 0 auto; 
     line-height: 1.6;
     margin-top: 2rem;
-    color: #e0e0e0;
-}
-
-.about-section h2 {
-    text-align: center;
-    color: #ff4d4d;
-    margin-bottom: 2rem;
-}
-
-.about-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
 .about-pic {
     border-radius: 10px;
     width: 80%;
     max-width: 300px;
+    margin-top: 2rem;
     margin-bottom: 2.5rem;
 }
 
-.about-text {
-    max-width: 600px;
-    margin-left: 2rem;
+.about-section p {
+    max-width: 800px; /* Align the text width to match the container */
+    margin: 20px auto;
     font-size: 1.1em;
     line-height: 1.8;
-    text-align: left;
+    color: #333; /* Updated text color */
+    text-align: left; /* Ensure left-aligned text */
 }
 
-.highlight {
-    color: #ff4d4d;
+.about-section .highlight {
+    color: #d87e4a; /* Change to the preferred highlight color */
     font-weight: bold;
 }
 
-.about-text p a {
-    color: #ff4d4d;
+.about-section p a {
+    color: #d87e4a; /* Use the same color for links */
     text-decoration: none;
 }
 
-.about-text p a:hover {
+.about-section p a:hover {
     text-decoration: underline;
 }
+
+/* Panel styling remains the same */
 .panel {
     display: flex;
     justify-content: space-around;
