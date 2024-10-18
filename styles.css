@@ -168,46 +168,56 @@ h3 {
 }
 
 /* About Me Section */
-.about {
-    text-align: center;
+.about-section {
     padding: 2rem 1rem;
-    max-width: 800px;
-    margin: 0 auto; 
+    max-width: 1200px;
+    margin: 0 auto;
     line-height: 1.6;
     margin-top: 2rem;
+    color: #e0e0e0;
+}
+
+.about-section h2 {
+    text-align: center;
+    color: #ff4d4d;
+    margin-bottom: 2rem;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .about-pic {
     border-radius: 10px;
     width: 80%;
     max-width: 300px;
-    margin-top: 2rem;
     margin-bottom: 2.5rem;
 }
 
-.about-section p {
-            max-width: 600px;
-            margin: 20px auto;
-            text-align: left;
-            font-size: 1.1em;
-            line-height: 1.8;
-            color: #e0e0e0;
-        }
+.about-text {
+    max-width: 600px;
+    margin-left: 2rem;
+    font-size: 1.1em;
+    line-height: 1.8;
+    text-align: left;
+}
 
-        .about-section .highlight {
-            color: #ff4d4d;
-            font-weight: bold;
-        }
+.highlight {
+    color: #ff4d4d;
+    font-weight: bold;
+}
 
-        .about-section p a {
-            color: #ff4d4d;
-            text-decoration: none;
-        }
+.about-text p a {
+    color: #ff4d4d;
+    text-decoration: none;
+}
 
-        .about-section p a:hover {
-            text-decoration: underline;
-        }
-
+.about-text p a:hover {
+    text-decoration: underline;
+}
 .panel {
     display: flex;
     justify-content: space-around;
@@ -465,40 +475,66 @@ body.dark-mode #profile {
         margin-left: 0;
     }
 
-    .panels {
+    .about-content {
         flex-direction: column;
-        gap: 1rem;
-    }
-
-    .info-card {
-        width: 90%;
-        max-width: none;
-    }
-    .about {
-        padding: 1.5rem 1rem;
-        margin-top: 1rem;
+        text-align: center;
     }
 
     .about-pic {
-        width: 90%;
-        max-width: 250px;
+        margin-left: 0;
     }
 
-    .info-panels {
-        grid-template-columns: 1fr;
+    .about-text {
+        margin-left: 0;
+        text-align: left;
     }
 
+    .panel {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 2rem 0;
+    padding: 1rem;
+    }
+    
     .info-card {
-        padding: 1rem;
-        width: 95%;
+    background: #f5e7d6;
+    padding: 2rem;
+    border-radius: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+    text-align: center;
+    margin: 0 auto;
+    width: 45%;
+    max-width: 400px;
     }
-
+    
+    .info-card:hover {
+    transform: translateY(-5px);
+    background-color: #ff4d4d;
+    }
+    
+    .info-card:hover h3,
+    .info-card:hover p {
+    color: white;
+    }
+    
+    .info {
+    width: 50px;
+    height: 50px;
+    }
+    
     .info-card h3 {
-        font-size: 1.3rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
     }
-
+    
     .info-card p {
-        font-size: 0.9rem;
+    font-size: 1rem;
+    color: #555;
     }
     
     .projects-container,
