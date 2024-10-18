@@ -169,11 +169,9 @@ h3 {
 
 /* About Me Section */
 .about-section {
-    text-align: left; /* Align text to the left */
     padding: 2rem 1rem;
     max-width: 800px;
     margin: 0 auto; 
-    line-height: 1.6;
     margin-top: 2rem;
 }
 
@@ -186,21 +184,21 @@ h3 {
 }
 
 .about-section p {
-    max-width: 800px; /* Align the text width to match the container */
-    margin: 20px auto;
+    text-align: left; /* Ensure left-aligned text */
+    max-width: 800px; /* Maintain proper width */
+    margin: 20px 0;
     font-size: 1.1em;
     line-height: 1.8;
-    color: #333; /* Updated text color */
-    text-align: left; /* Ensure left-aligned text */
+    color: #333; /* Keep the text color subtle */
 }
 
 .about-section .highlight {
-    color: #d87e4a; /* Change to the preferred highlight color */
+    color: #d87e4a; /* Update highlight color */
     font-weight: bold;
 }
 
 .about-section p a {
-    color: #d87e4a; /* Use the same color for links */
+    color: #d87e4a; /* Highlight for links */
     text-decoration: none;
 }
 
@@ -208,7 +206,6 @@ h3 {
     text-decoration: underline;
 }
 
-/* Panel styling remains the same */
 .panel {
     display: flex;
     justify-content: space-around;
@@ -223,11 +220,9 @@ h3 {
     background: #f5e7d6;
     padding: 2rem;
     border-radius: 10px;
-    transition: transform 0.3s;
     text-align: center;
-    margin: 0 auto;
-    width: 45%;
-    max-width: 400px;
+    transition: transform 0.3s;
+    width: 45%; /* Ensure this remains intact */
 }
 
 .info-card:hover {
