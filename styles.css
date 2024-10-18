@@ -493,7 +493,8 @@ body.dark-mode #profile {
 
     .about-pic {
         width: 90%;
-        max-width: 400px;
+        width: 200px;
+        height: 100px;
     }
 
     .about-text {
@@ -506,7 +507,7 @@ body.dark-mode #profile {
     }
 
     .info-card {
-        padding: 2rem 5rem;
+        padding: 2rem;
         width: 90%;
     }
 
@@ -528,7 +529,7 @@ body.dark-mode #profile {
     .project-card,
     .experience-card {
         width: 100%;
-        padding: 2rem 5rem;
+        padding: 2rem;
         margin: 1rem 0;
     }
 
