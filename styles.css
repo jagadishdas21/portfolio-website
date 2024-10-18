@@ -497,8 +497,9 @@ body.dark-mode #profile {
     }
 
     .about-pic {
-        width: 300px;
+        width: 30px;
         height: 200px;
+        justify-content: center;
     }
 
     .about-text {
@@ -527,13 +528,13 @@ body.dark-mode #profile {
     .experience-content {
         flex-direction: column;
         align-items: center;
-        padding: 1.5rem;
+        padding: 2rem;
     }
 
     .project-card,
     .experience-card {
         width: 100%;
-        padding: 1.5rem;
+        padding: 2rem;
         margin: 1rem 0;
     }
 
