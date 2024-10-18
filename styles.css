@@ -402,8 +402,13 @@ footer {
 }
 
 .dark-mode .mode-switch button {
-    background: orange;
-    color: black;
+    background: #bf713b;
+    color: #000;
+}
+
+.light-mode .mode-switch button {
+    background: #fff;
+    color: #000;
 }
 
 body.dark-mode section {
