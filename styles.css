@@ -79,7 +79,6 @@ nav a:hover {
 }
 
 .mode-switch {
-    margin-left: auto;
     display: inline-block;
 }
 
@@ -471,7 +470,6 @@ body.dark-mode #profile {
 
     .mode-switch {
         margin-left: 0;
-        margin-right: 0;
     }
 
     .profile-pic {
@@ -547,10 +545,6 @@ body.dark-mode #profile {
         padding: 0.7rem 1.2rem;
     }
 
-    .send-button {
-        margin-bottom: 1.5rem;
-    }
-        
     footer {
     text-align: center;
     padding: 1rem 0.5rem;
