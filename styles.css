@@ -471,6 +471,11 @@ body.dark-mode #profile {
         margin-left: 0;
     }
 
+    .profile-pic {
+    width: 200px;
+    height: 200px;
+}
+
     .panels {
         flex-direction: column;
         gap: 1rem;
@@ -492,7 +497,6 @@ body.dark-mode #profile {
     }
 
     .about-pic {
-        width: 90%;
         width: 300px;
         height: 200px;
     }
