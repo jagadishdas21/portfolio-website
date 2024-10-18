@@ -181,32 +181,10 @@ h3 {
     border-radius: 10px;
     width: 80%;
     max-width: 300px;
+    border: 1.5px solid #000000;
     margin-top: 2rem;
     margin-bottom: 2.5rem;
 }
-
-.about-section p {
-            max-width: 600px;
-            margin: 20px auto;
-            text-align: left;
-            font-size: 1.1em;
-            line-height: 1.8;
-            color: #e0e0e0;
-        }
-
-        .about-section .highlight {
-            color: #ff4d4d;
-            font-weight: bold;
-        }
-
-        .about-section p a {
-            color: #ff4d4d;
-            text-decoration: none;
-        }
-
-        .about-section p a:hover {
-            text-decoration: underline;
-        }
 
 .panel {
     display: flex;
@@ -222,11 +200,12 @@ h3 {
     background: #f5e7d6;
     padding: 2rem;
     border-radius: 10px;
+    border: 1.5px solid #d87e4a;
     transition: transform 0.3s;
     text-align: center;
     margin: 0 auto;
     width: 45%;
-    max-width: 300px;
+    max-width: 400px;
 }
 
 .info-card:hover {
@@ -249,7 +228,6 @@ h3 {
     font-size: 1rem;
     color: #555;
 }
-
 /* Experience and Projects Section */
 .section {
     padding: 3rem 2rem;
