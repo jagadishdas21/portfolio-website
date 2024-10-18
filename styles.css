@@ -499,6 +499,7 @@ body.dark-mode #profile {
     .about-pic {
         width: 300px;
         height: 200px;
+        margin-top: 1rem;
         margin: 0 auto;
     }
 
