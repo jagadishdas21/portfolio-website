@@ -518,11 +518,11 @@ body.dark-mode #profile {
     }
 
     .info-card h3 {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 
     .info-card p {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     
     .projects-container,
