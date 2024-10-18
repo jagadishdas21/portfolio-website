@@ -509,13 +509,8 @@ body.dark-mode #profile {
     }
 
     .info-card {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         padding: 2rem;
-        width: 100%;
-        box-sizing: border-box;
+        width: 90%;
     }
 
     .info-card h3 {
