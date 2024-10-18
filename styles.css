@@ -509,6 +509,7 @@ body.dark-mode #profile {
         margin-left: 0;
         margin: 0 auto;
         max-width: 90%;
+        margin-top: 1rem;
     }
 
     .info-panels {
