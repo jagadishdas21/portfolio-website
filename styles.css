@@ -55,6 +55,7 @@ nav h1 {
 nav ul {
     display: flex;
     list-style: none;
+    margin-right: auto;
 }
 
 nav ul li {
@@ -79,6 +80,7 @@ nav a:hover {
 }
 
 .mode-switch {
+    margin-left: auto;
     display: inline-block;
 }
 
@@ -470,12 +472,13 @@ body.dark-mode #profile {
 
     .mode-switch {
         margin-left: 0;
+        margin-right: 0;
     }
 
     .profile-pic {
     width: 200px;
     height: 200px;
-}
+    }
 
     .panels {
         flex-direction: column;
