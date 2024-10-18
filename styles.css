@@ -62,7 +62,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000000; /* Light mode link color */
+    color: #000000;
     text-decoration: none;
     font-size: 1rem;
     transition: color 0.3s;
@@ -487,19 +487,20 @@ body.dark-mode #profile {
     }
     .about {
         padding: 1.5rem 1rem;
-        margin-bottom: 1rem;
+        margin-top: 1rem;
     }
 
     .about-container {
         flex-direction: column;
         align-items: center;
         margin-left: 0;
+        margin-top: 1rem;
     }
 
     .about-pic {
         width: 300px;
         height: 200px;
-        margin-top: 1rem;
+        margin-top: 2rem;
         margin: 0 auto;
     }
 
@@ -552,12 +553,13 @@ body.dark-mode #profile {
     }
 
     .send-button {
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
     }
         
     footer {
     text-align: center;
-    padding: 0.5rem 1rem;
+    padding: 1.5rem 1rem;
+    font-size: 0.9rem;
     }
 }
         
