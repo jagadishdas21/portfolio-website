@@ -428,7 +428,8 @@ body.dark-mode .experience-card {
 
 body.dark-mode .info-card h3, 
 body.dark-mode .info-card p, 
-body.dark-mode .project-card h3, 
+body.dark-mode .project-card h3,
+body.dark-mode .project-card p,
 body.dark-mode .experience-card h3 {
     color: #2c2c2c;
 }
