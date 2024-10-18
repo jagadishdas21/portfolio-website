@@ -497,7 +497,7 @@ body.dark-mode #profile {
     }
 
     .about-pic {
-        width: 30px;
+        width: 300px;
         height: 200px;
         justify-content: center;
     }
@@ -534,7 +534,7 @@ body.dark-mode #profile {
     .project-card,
     .experience-card {
         width: 100%;
-        padding: 2rem;
+        padding: 2.5rem;
         margin: 1rem 0;
     }
 
