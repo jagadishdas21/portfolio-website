@@ -62,7 +62,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000000; /* Light mode link color */
+    color: #000000;
     text-decoration: none;
     font-size: 1rem;
     transition: color 0.3s;
@@ -83,8 +83,8 @@ nav a:hover {
 }
 
 .mode-switch button {
-    background: #fff;
-    color: #000;
+    background-color: #ffffff;
+    color: #000000;
     border: 2px solid #333;
     padding: 0.5rem 1rem;
     border-radius: 20px;
@@ -404,7 +404,7 @@ footer {
 }
 
 .dark-mode .mode-switch button {
-    background: #bf713b;
+    background-color: #bf713b;
     color: #000;
 }
 
@@ -422,14 +422,14 @@ body.dark-mode section {
 }
 
 .dark-mode .project-card, .dark-mode .experience-card {
-    background: #666;
+    background-color: #666;
     color: #fff;
 }
 
 body.dark-mode .info-card, 
 body.dark-mode .project-card, 
 body.dark-mode .experience-card {
-    background: #f5e7d6;
+    background-color: #f5e7d6;
     color: #2c2c2c;
 }
 
@@ -456,7 +456,7 @@ body.dark-mode p {
 body.dark-mode .send-email-btn:hover,
 body.dark-mode .btn:hover{
     transform: translateY(-5px);
-    background: #bf713b;
+    background-color: #bf713b;
 }
 
 body.dark-mode #profile {
