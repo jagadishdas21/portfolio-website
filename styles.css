@@ -177,13 +177,42 @@ h3 {
     margin-top: 2rem;
 }
 
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 2rem;
+}
+
 .about-pic {
     border-radius: 10px;
-    width: 80%;
-    max-width: 300px;
-    border: 1.5px solid #000000;
+    width: 400px;
+    height: 300px;
     margin-top: 2rem;
-    margin-bottom: 2.5rem;
+    margin-right: 2rem;
+}
+
+
+.about-text {
+    max-width: 600px;
+    margin-left: 2rem;
+    font-size: 0.82em;
+    line-height: 1.8;
+    text-align: left;
+    margin-top: 1.5rem;
+}
+
+.highlight {
+    color: #bf713b;
+    font-weight: bold;
+}
+
+.about-text p a {
+    color: #bf713b;
+    text-decoration: none;
+}
+
+.about-text p a:hover {
+    text-decoration: underline;
 }
 
 .panel {
@@ -191,21 +220,19 @@ h3 {
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 2rem;
     margin: 2rem 0;
     padding: 1rem;
 }
 
 .info-card {
     background: #f5e7d6;
-    padding: 2rem;
+    padding: 2rem 9rem;
     border-radius: 10px;
-    border: 1.5px solid #d87e4a;
     transition: transform 0.3s;
     text-align: center;
     margin: 0 auto;
-    width: 45%;
-    max-width: 400px;
+    width: 48%;
 }
 
 .info-card:hover {
