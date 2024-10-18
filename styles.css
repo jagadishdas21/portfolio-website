@@ -493,7 +493,7 @@ body.dark-mode #profile {
 
     .about-pic {
         width: 90%;
-        max-width: 300px;
+        max-width: 400px;
     }
 
     .about-text {
@@ -528,7 +528,7 @@ body.dark-mode #profile {
     .project-card,
     .experience-card {
         width: 100%;
-        padding: 1.5rem;
+        padding: 2rem 5rem;
         margin: 1rem 0;
     }
 
@@ -537,25 +537,6 @@ body.dark-mode #profile {
     .send-button {
         font-size: 0.8rem;
         padding: 0.7rem 1.2rem;
-    }
-}
-
-@media (max-width: 480px) { /* For mobile devices */
-    .about {
-        padding: 1rem; /* Reduce padding */
-    }
-
-    .info-card {
-        padding: 1rem; /* Reduce padding */
-        width: 100%; /* Full width for cards */
-    }
-
-    .info-card h3 {
-        font-size: 1.2rem; /* Reduce heading size */
-    }
-
-    .info-card p {
-        font-size: 0.9rem; /* Reduce paragraph size */
     }
 }
         
