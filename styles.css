@@ -351,7 +351,7 @@ button:hover,
     padding: 1rem;
     max-height: 300px;
     overflow-y: auto;
-    background-color: #f5e7d6;
+   
     flex-grow: 1;
     margin-top: 2rem;
     border-radius: 10px;
