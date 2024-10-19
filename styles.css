@@ -373,7 +373,7 @@ button:hover,
 
 /* User message style */
 .user-msg {
-    background-color: #d87e4a;
+    background-color: rgba(0, 0, 0, 0.1);
     color: black;
     text-align: right;
     margin-left: auto;
@@ -382,7 +382,7 @@ button:hover,
 
 /* Bot message style */
 .bot-msg {
-    background-color: #d87e4a;
+    background-color: rgba(0, 0, 0, 0.1);;
     color: black;
     text-align: left;
     margin-left: 0;
@@ -532,12 +532,6 @@ body.dark-mode footer {
 body.dark-mode h2,
 body.dark-mode h3,
 body.dark-mode p {
-    color: #fff;
-}
-
-body.dark-mode .user-msg {  ,
-body.dark-mode .bot-msg {
-    background-color: #666;
     color: #fff;
 }
 
