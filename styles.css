@@ -519,7 +519,8 @@ body.dark-mode .experience-card {
 
 body.dark-mode .info-card h3, 
 body.dark-mode .info-card p, 
-body.dark-mode .project-card h3, 
+body.dark-mode .project-card h3,
+body.dark-mode .project-card p,
 body.dark-mode .experience-card h3 {
     color: #2c2c2c;
 }
@@ -535,11 +536,17 @@ body.dark-mode p {
     color: #fff;
 }
 
-body.dark-mode #search-button {
+body.dark-mode .messages {
+    color: #fff;
+}
+body.dark-mode .chat-input-container {
+    color: #666;
+}
+body.dark-mode #search-input { {
     background-color: #666;
 }
 
-body.dark-mode #search-button:hover {
+body.dark-mode #search-input:hover {
     background-color: #b76a3e;
 }
 
