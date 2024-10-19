@@ -62,7 +62,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000000;
+    color: #000000; /* Light mode link color */
     text-decoration: none;
     font-size: 1rem;
     transition: color 0.3s;
@@ -83,8 +83,7 @@ nav a:hover {
 }
 
 .mode-switch button {
-    background-color: #ffffff;
-    color: #000000;
+    background: none;
     border: 2px solid #333;
     padding: 0.5rem 1rem;
     border-radius: 20px;
@@ -92,7 +91,6 @@ nav a:hover {
     margin-left: 20px;
     transition: background-color 0.3s, color 0.3s;
 }
-
 
 /* Profile Section */
 #profile {
@@ -108,8 +106,8 @@ nav a:hover {
 
 .profile-pic {
     border-radius: 50%;
-    width: 230px;
-    height: 230px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border: 3px solid #d87e4a;
     margin-bottom: 1.5rem;
@@ -187,7 +185,7 @@ h3 {
 
 .about-pic {
     border-radius: 10px;
-    width: 450px;
+    width: 400px;
     height: 300px;
     margin-top: 2rem;
     margin-right: 2rem;
@@ -520,8 +518,7 @@ body.dark-mode .experience-card {
 
 body.dark-mode .info-card h3, 
 body.dark-mode .info-card p, 
-body.dark-mode .project-card h3,
-body.dark-mode .project-card p,
+body.dark-mode .project-card h3, 
 body.dark-mode .experience-card h3 {
     color: #2c2c2c;
 }
@@ -537,17 +534,11 @@ body.dark-mode p {
     color: #fff;
 }
 
-body.dark-mode .messages {
-    color: #fff;
-}
-body.dark-mode .chat-input-container {
-    color: #666;
-}
-body.dark-mode #search-input { {
+body.dark-mode #search-button {
     background-color: #666;
 }
 
-body.dark-mode #search-input:hover {
+body.dark-mode #search-button:hover {
     background-color: #b76a3e;
 }
 
@@ -557,7 +548,7 @@ body.dark-mode .btn:hover{
     background: #bf713b;
 }
 
-body.dark-mode .profile {
+body.dark-mode #profile {
     background-color: #444;
     color: #fff;
 }
@@ -653,7 +644,7 @@ body.dark-mode .profile {
     }
 
     .message {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     #search-input {
@@ -666,6 +657,6 @@ body.dark-mode .profile {
     footer {
     text-align: center;
     padding: 1rem 0.5rem;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     } 
 }
