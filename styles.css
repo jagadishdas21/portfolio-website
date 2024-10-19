@@ -106,8 +106,8 @@ nav a:hover {
 
 .profile-pic {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     object-fit: cover;
     border: 3px solid #d87e4a;
     margin-bottom: 1.5rem;
@@ -402,7 +402,7 @@ button:hover,
 #search-input {
     flex-grow: 1;
     padding: 10px;
-    background-color: #f5e7d6;
+    background-color: rgba(0, 0, 0, 0.1);
     color: #333;
     border: 1px solid #C5C5C5;
     border-radius: 50px;
@@ -535,6 +535,11 @@ body.dark-mode p {
     color: #fff;
 }
 
+body.dark-mode .user-msg,
+body.dark-mode .bot-msg {
+    color: #2c2c2c;
+}
+
 body.dark-mode .send-email-btn:hover,
 body.dark-mode .btn:hover{
     transform: translateY(-5px);
@@ -543,6 +548,11 @@ body.dark-mode .btn:hover{
 
 body.dark-mode #profile {
     background-color: #444;
+    color: #fff;
+}
+
+body.dark-mode #search-input {
+    background-color: #666;
     color: #fff;
 }
 
