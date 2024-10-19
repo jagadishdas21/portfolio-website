@@ -535,7 +535,7 @@ body.dark-mode p {
     color: #fff;
 }
 
-body.dark-mode .message, {
+body.dark-mode #message, {
     color: #2c2c2c;
 }
 
