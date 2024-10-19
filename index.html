@@ -159,11 +159,20 @@
     
 <section id="contact" class="section">
     <h2>Contact Me</h2>
-    <div class="search-container">
-        <input type="text" id="search-input" placeholder="Ask a question..." />
-        <button id="search-button">Send</button>
-        <div id="search-results" class="results"></div>
+    
+     <div class="messages" id="chat-box">
+        <div class="message bot-msg">
+            <p>Hello! How can I assist you today?</p>
+        </div>
     </div>
+    
+    <div class="chat-input-container">
+        <textarea id="search-input" placeholder="Ask me anything..." oninput="adjustInputHeight()"></textarea>
+        <button id="send-button" onclick="searchQuestion()">
+            <img src="/images/send.png" alt="Send Icon" class="send-icon">
+        </button>
+    </div>
+    
     <a href="#" class="btn send-email-btn" onclick="handleEmailLink()">
         <img src="/images/email.png" alt="Email Icon" style="vertical-align: middle;">
         Send Email
