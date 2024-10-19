@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
   { question: "What he is doing?, What he is doing now?, What is his occupation?, what is his qualification? Where he is studying?, Curently, he is where?, Curently, where he is?", answer: "He's is currently studying in NIT Rourkela!" },
   { question: "Can we connect?", answer: "Yes, of course!" },
   { question: "I want a meeting with him, How can we get connected?, How can I approach him?, How can I get help?", answer: "You can send us an Email!" },
-  { question: "Tell me about your boss, Who is your boss?, Who created you?, Who built you?, Who made you?", answer: "Dr. Jagadish Das is my boss and creator!" },
+  { question: "Tell me about your boss, Who is your boss?, Who created you?, Who built you?, Who made you?", answer: "Mr. Jagadish Das" },
   { question: "What does your boss do?, What's his work?, What does he do?, What’s his profession?, What is his job?", answer: "He is a data scientist working on healthcare research, focusing on AI." },
   { question: "Where does he study?, Where is he studying?, What’s his qualification?, What’s his education?, What degree is he pursuing?", answer: "He is a master's student at NIT Rourkela, studying Life Science." },
   { question: "What are his interests?, What's he passionate about?, What does he enjoy?, What's his field of interest?", answer: "He is passionate about the intersection of life science and AI." },
