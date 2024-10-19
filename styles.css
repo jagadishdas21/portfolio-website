@@ -538,8 +538,7 @@ body.dark-mode p {
 
 body.dark-mode .user-msg,
 body.dark-mode .bot-msg {
-    
-    color: #fff;
+    color: #2c2c2c;
 }
 
 body.dark-mode .send-email-btn:hover,
