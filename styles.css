@@ -354,6 +354,7 @@ button:hover,
     max-height: 300px;
     overflow-y: auto;
     background-color: #f5e7d6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     flex-grow: 1;
     margin-top: 2rem;
     border-radius: 10px;
@@ -399,7 +400,6 @@ button:hover,
     max-width: 500px;
     padding: 0 10px;
     margin: 10px auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #search-input {
@@ -538,8 +538,7 @@ body.dark-mode p {
     color: #fff;
 }
 
-body.dark-mode .user-msg,
-body.dark-mode .bot-msg {
+body.dark-mode .message {
     color: #2c2c2c;
 }
 
