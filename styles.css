@@ -538,7 +538,7 @@ body.dark-mode p {
 
 body.dark-mode .user-msg,
 body.dark-mode .bot-msg {
-    background-color: #666;
+    
     color: #fff;
 }
 
