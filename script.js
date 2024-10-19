@@ -7,11 +7,18 @@ modeToggle.addEventListener('click', () => {
         modeToggle.textContent = 'Dark Mode';
     }
 });
-    document.getElementById('sendEmailLink').addEventListener('click', function() {
-        const message = document.getElementById('message').value;
-        const mailtoLink = `mailto:jagadishdas.nitrkl@gmail.com?subject=Inquiry&body=${encodeURIComponent(message)}`;
-        this.href = mailtoLink;
+   document.getElementById('sendEmailLink').addEventListener('click', function(event) {
+    event.preventDefault();
+
+    const email = 'jagadishdas.nitrkl@gmail.com';
+    const subject = 'Inquiry';
+    const body = encodeURIComponent('Hello Mr. Jagadish Das');
+
+    const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${body}`;
+
+    window.open(gmailLink, '_blank');
 });
+
 
 
 
