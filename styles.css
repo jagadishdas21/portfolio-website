@@ -364,7 +364,7 @@ button:hover,
     margin: 10px 0;
     padding: 10px;
     border-radius: 50px;
-    font-size: 15px;
+    font-size: 12px;
     max-width: 70%; /* Reduce to ensure it fits properly */
     height: auto;
     word-wrap: break-word;
@@ -535,8 +535,7 @@ body.dark-mode p {
     color: #fff;
 }
 
-body.dark-mode #user-msg,
-body.dark-mode #bot-msg {
+body.dark-mode .message, {
     color: #2c2c2c;
 }
 
@@ -553,7 +552,7 @@ body.dark-mode #profile {
 
 body.dark-mode #search-input {
     background-color: rgba(0, 0, 0, 0.1);
-    color: #2c2c2c;
+    color: #fff;
 }
 
 /* Responsive Design */
