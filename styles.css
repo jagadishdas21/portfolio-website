@@ -363,7 +363,7 @@ button:hover,
     overflow-x: hidden;
 }
 
-#message {
+.message {
     margin: 10px 0;
     padding: 10px;
     border-radius: 50px;
@@ -536,10 +536,6 @@ body.dark-mode h2,
 body.dark-mode h3,
 body.dark-mode p {
     color: #fff;
-}
-
-body.dark-mode #message {
-    color: #2c2c2c;
 }
 
 body.dark-mode .send-email-btn:hover,
