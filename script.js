@@ -7,31 +7,16 @@ modeToggle.addEventListener('click', () => {
         modeToggle.textContent = 'Dark Mode';
     }
 });
-   document.getElementById('sendEmailLink').addEventListener('click', function(event) {
-        // Prevent the default anchor behavior
-        event.preventDefault();
-
-        // Define email parameters
-        const email = 'jagadishdas.nitrkl@gmail.com'; // Your email
-        const subject = 'Inquiry'; // Email subject
-        const body = 'Hello Mr. Jagadish Das'; // Email body
-
-        // Check if the user is on a mobile device
-        const isMobile = /Mobi|Android/i.test(navigator.userAgent);
-
-        // Construct the appropriate email link
-        let mailtoLink;
-        if (isMobile) {
-            // For mobile devices, use mailto:
-            mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    function handleEmailLink() {
+        // Detect if the user is on a mobile device
+        if (/Android|iPhone|iPad|iPod|Opera Mini|IEMobile|Mobile/i.test(navigator.userAgent)) {
+            // Mobile device - use mailto link
+            window.location.href = "mailto:jagadishdas.nitrkl@gmail.com?subject=Inquiry&body=Hello Jagadish, I would like to connect with you regarding...";
         } else {
-            // For desktop devices, use Gmail link
-            mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            // Desktop device - open Gmail in a new tab
+            window.open('https://mail.google.com/mail/?view=cm&fs=1&to=jagadishdas.nitrkl@gmail.com&su=Inquiry&body=Hello Jagadish, I would like to connect with you regarding...', '_blank');
         }
-
-        // Open the email link
-        window.open(mailtoLink, '_blank');
-    });
+    }
 
 
 console.log("Script loaded");
