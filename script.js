@@ -23,7 +23,11 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log("Script loaded");
 
         const qaPairs = [
-            { question: "Tell me about yourself?", answer: "I'm an AI assistant of Mr. Jagadish Das!" },
+            { question: "Hey, Hey!, Hye, Hye!, Hi, Hi!, Hello, Hello!, Wassup, Waasup?, Sup, Sup?,Holla, Holla!, Heya", answer: "How can i help you?" },
+            { question: "Who are you?, who is your boss?, What is your name?, Tell me about yourself?", answer: "I'm an AI assistant of Mr. Jagadish Das!" },
+            { question: "Who is Mr. Jagadish Das?, Who is Jagadish Das?", answer: "He's my Boss and Creator!" },
+            { question: "Where he is from?, From where he is?, Where i can find him??", answer: "He is from Cuttack, Odisha!" },
+            { question: "What is he doing now?, What is his occupation?, what is his qualification", answer: "He's is currently doing his masters in NITR" },
             { question: "Can we connect?", answer: "Yes, of course!" },
             { question: "How can I get help?", answer: "You can send us an Email!" },
             { question: "What projects can you help with?", answer: "I can assist with AI in Healthcare." }
@@ -53,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (match) {
                 botMessage.innerHTML = `<p>${match.answer}</p>`;
             } else {
-                botMessage.innerHTML = `<p>Sorry, I couldn't find an answer to that.</p>`;
+                botMessage.innerHTML = `<p>Sorry, I can't tell you this.</p>`;
             }
 
             console.log("Bot message:", botMessage.innerHTML);
