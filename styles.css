@@ -230,6 +230,7 @@ h3 {
     background: #f5e7d6;
     padding: 2rem 9rem;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
     text-align: center;
     margin: 0 auto;
@@ -398,6 +399,7 @@ button:hover,
     max-width: 500px;
     padding: 0 10px;
     margin: 10px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #search-input {
