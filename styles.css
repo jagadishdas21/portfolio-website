@@ -363,7 +363,7 @@ button:hover,
     overflow-x: hidden;
 }
 
-.message {
+#message {
     margin: 10px 0;
     padding: 10px;
     border-radius: 50px;
@@ -399,7 +399,7 @@ button:hover,
     width: 100%;
     max-width: 500px;
     padding: 0 10px;
-    margin: 10px auto;
+    margin: 15px auto;
 }
 
 #search-input {
@@ -538,7 +538,7 @@ body.dark-mode p {
     color: #fff;
 }
 
-body.dark-mode .message {
+body.dark-mode #message {
     color: #2c2c2c;
 }
 
