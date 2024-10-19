@@ -535,14 +535,6 @@ body.dark-mode p {
     color: #fff;
 }
 
-body.dark-mode #search-button {
-    background-color: #666;
-}
-
-body.dark-mode #search-button:hover {
-    background-color: #b76a3e;
-}
-
 body.dark-mode .send-email-btn:hover,
 body.dark-mode .btn:hover{
     transform: translateY(-5px);
