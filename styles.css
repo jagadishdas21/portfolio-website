@@ -111,7 +111,7 @@ nav a:hover {
     object-fit: cover;
     border: 3px solid #d87e4a;
     margin-bottom: 1.5rem;
-    margin-top: 2.5rem;
+    margin-top: 3rem;
 }
 
 h2 {
@@ -186,7 +186,7 @@ h3 {
 
 .about-pic {
     border-radius: 10px;
-    width: 400px;
+    width: 500px;
     height: 300px;
     margin-top: 2rem;
     margin-right: 2rem;
