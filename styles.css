@@ -472,9 +472,10 @@ button:hover,
 /* Footer */
 footer {
     text-align: center;
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem;
     background-color: rgba(0, 0, 0, 0.1);
     box-shadow: rgba(255, 255, 255, 0.1);
+    font-size: 1rem;
 }
 
 
@@ -556,7 +557,7 @@ body.dark-mode .btn:hover{
     background: #bf713b;
 }
 
-body.dark-mode #profile {
+body.dark-mode .profile {
     background-color: #444;
     color: #fff;
 }
