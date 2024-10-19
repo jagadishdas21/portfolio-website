@@ -8,18 +8,30 @@ modeToggle.addEventListener('click', () => {
     }
 });
    document.getElementById('sendEmailLink').addEventListener('click', function(event) {
-    event.preventDefault();
+        // Prevent the default anchor behavior
+        event.preventDefault();
 
-    const email = 'jagadishdas.nitrkl@gmail.com';
-    const subject = 'Inquiry';
-    const body = encodeURIComponent('Hello Mr. Jagadish Das');
+        // Define email parameters
+        const email = 'jagadishdas.nitrkl@gmail.com'; // Your email
+        const subject = 'Inquiry'; // Email subject
+        const body = 'Hello Mr. Jagadish Das'; // Email body
 
-    const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${body}`;
+        // Check if the user is on a mobile device
+        const isMobile = /Mobi|Android/i.test(navigator.userAgent);
 
-    window.open(gmailLink, '_blank');
-});
+        // Construct the appropriate email link
+        let mailtoLink;
+        if (isMobile) {
+            // For mobile devices, use mailto:
+            mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        } else {
+            // For desktop devices, use Gmail link
+            mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        }
 
-
+        // Open the email link
+        window.open(mailtoLink, '_blank');
+    });
 
 
 console.log("Script loaded");
