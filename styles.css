@@ -549,9 +549,9 @@ body.dark-mode #profile {
     color: #fff;
 }
 
-body.dark-mode .search-input {
-    background-color: rgba(0, 0, 0, 0.1);
-    color: #333;
+body.dark-mode #search-input {
+    background-color: #444;
+    color: #fff;
 }
 
 /* Responsive Design */
